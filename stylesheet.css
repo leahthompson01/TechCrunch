@@ -40,16 +40,7 @@
 .bar li {
     padding-top: 10%;
 }
-/*
-.article {
-    width: 80%;
-    height: auto;
-   margin-top: 60px;
-    color: black;
-    border: 6px solid orange;
-    margin-left: 20%; 
-    display: inline-block;
-}*/
+
 .article section {
     display: inline-block;
     padding: 0 10px;
@@ -84,7 +75,6 @@
     vertical-align: top;
 }
 .side li {
-   /* padding-top: 5px;*/
     list-style-type: none;
     border-bottom:2px solid gray;
 }
@@ -147,32 +137,3 @@ a:link {
     max-height: auto;
     vertical-align: top;
 }
-
-/*
-.center {
-    height: auto;
-    display: center;
-    margin: auto;
-    width: 40%;
-    border: 3px solid green;
-    padding: 10px;
-}
-header > img {
-    width:15%;
-    height:auto;
-}
-
-* {
-    background-color: white;
-}
-.sidearticles {
-    border: 3px solid green;
-    width: 15%;
-    height:auto;
-    margin-top: 0;
-   float: right;
-}
-/* 
-.container {
- 
-} */
