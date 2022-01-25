@@ -1,0 +1,178 @@
+.container {
+    margin-top: 0;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.logo {
+    width:30%;
+    height: auto;
+    padding-top: 20px;
+}
+.bar a {
+    font-size: 1px;
+    line-height: 22px;
+    color: gray;
+    font: 500 14px/16px "Georgia", "Times New Roman";
+}
+.bar li:first-child a{
+    color: goldenrod;
+    padding-top:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.bar {
+    float: left;
+    width: 20%;
+    padding-bottom: 70%;
+  
+}
+.bar ul{
+    list-style-type: none;
+    padding-left: 0px;
+    display: inline-block;
+}
+.bar li {
+    padding-top: 10%;
+}
+/*
+.article {
+    width: 80%;
+    height: auto;
+   margin-top: 60px;
+    color: black;
+    border: 6px solid orange;
+    margin-left: 20%; 
+    display: inline-block;
+}*/
+.article section {
+    display: inline-block;
+    padding: 0 10px;
+}
+.article a,
+.bottom a {
+    color: black;
+}
+.article img {
+    max-width: 100%;
+    max-height:auto;
+}
+.center span {
+    display: block;
+    color: gray;
+    font: 300 12px/14px;
+}
+
+.center {
+    max-width: 48%;
+    max-height: auto;
+    display: center;
+    margin-left: 10px 20px;
+
+} 
+.center a{
+    font: 700 18px/24px"Georgia", "Times New Roman";
+}
+.side {
+    max-width: 24%;
+    height: auto; 
+    vertical-align: top;
+}
+.side li {
+   /* padding-top: 5px;*/
+    list-style-type: none;
+    border-bottom:2px solid gray;
+}
+.side li a {
+    font: 700 16px/22px"Georgia", "Times New Roman";
+}
+.bottom img {
+    max-width: 20%;
+    max-height:auto;
+    float: right;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.bottom ul{
+    list-style-type: none;
+}
+.bottom li {
+    border-bottom:2px solid gray;
+
+}
+.bottom li:last-child {
+    border-bottom: none;
+}
+.bottom h3 {
+    border-bottom:2px solid gray;
+}
+.bottom h2 {
+       /* width: 20%;
+        height: auto;*/
+        float: left;
+        max-width: 16%;
+        height: auto; 
+        font: 700 18px/24px"Georgia", "Times New Roman";
+}
+
+.bottom h6 {
+     display: inline-block;
+     color: rgb(161, 156, 156);
+    font: 300 12px/12px;
+
+}
+a:link {
+    text-decoration: none;
+}
+.bottom p {
+    max-width: 36%;
+    max-height: auto;
+    margin-left: 400px;
+    padding: 15px 0;
+    color: rgb(161, 156, 156);
+    font: 300 16px/24px;
+
+
+
+}
+.bottom {
+    float: right;
+    max-width: 80%;
+    max-height: auto;
+    vertical-align: top;
+}
+
+/*
+.center {
+    height: auto;
+    display: center;
+    margin: auto;
+    width: 40%;
+    border: 3px solid green;
+    padding: 10px;
+}
+header > img {
+    width:15%;
+    height:auto;
+}
+
+* {
+    background-color: white;
+}
+.sidearticles {
+    border: 3px solid green;
+    width: 15%;
+    height:auto;
+    margin-top: 0;
+   float: right;
+}
+/* 
+.container {
+ 
+} */
