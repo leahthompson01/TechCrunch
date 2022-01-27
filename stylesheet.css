@@ -1,139 +1,184 @@
-.container {
-    margin-top: 0;
-    vertical-align: top;
-    max-width: 100%;
-    height: auto;
+/*Clearfix*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.container {
+    margin-top: 0;
+    vertical-align: top;
+    max-width: 200px;
+    height: auto;
+    clear: both;
+    float:left;
+    padding-left: 20px;
+}
+
 .logo {
-    width:30%;
+    width:80px;
     height: auto;
     padding-top: 20px;
 }
+
 .bar a {
     font-size: 1px;
     line-height: 22px;
-    color: gray;
-    font: 500 14px/16px "Georgia", "Times New Roman";
+    color: rgb(184, 184, 184);
+    font: 100 16px/20px "Roboto", "Georgia", "Times";
 }
+
 .bar li:first-child a{
     color: goldenrod;
     padding-top:0;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Roboto", "Georgia", "Times";
     font-size: 20px;
     line-height: 22px;
     font-weight: 700;
 }
+
 .bar {
     float: left;
     width: 20%;
     padding-bottom: 70%;
+    position: fixed;
   
 }
+
 .bar ul{
     list-style-type: none;
     padding-left: 0px;
     display: inline-block;
 }
+
 .bar li {
     padding-top: 10%;
 }
 
 .article section {
-    display: inline-block;
-    padding: 0 10px;
+    float: left;
 }
+
 .article a,
 .bottom a {
     color: black;
 }
+
 .article img {
     max-width: 100%;
     max-height:auto;
 }
-.center span {
+
+.article span {
     display: block;
-    color: gray;
-    font: 300 12px/14px;
+    color: rgb(114, 105, 105);
+    font: 500 12px/18px "Roboto", "Georgia";
 }
 
 .center {
-    max-width: 48%;
-    max-height: auto;
-    display: center;
-    margin-left: 10px 20px;
-
+    max-width: 55%;
+    max-height: 600px;
+    padding-left: 200px;
 } 
+
 .center a{
-    font: 700 18px/24px"Georgia", "Times New Roman";
+    font: 700 22px/30px "Roboto", "Times New Roman";
 }
+
 .side {
-    max-width: 24%;
-    height: auto; 
+    max-width: 20%;
+    max-height: 600px; 
     vertical-align: top;
 }
+
 .side li {
     list-style-type: none;
     border-bottom:2px solid gray;
 }
+
 .side li a {
-    font: 700 16px/22px"Georgia", "Times New Roman";
+    font: 700 12px/20px "Roboto", "Times New Roman";
 }
+.side li:last-child{
+    border: none;
+}
+
+.side img {
+    width: 100px;
+    padding-left: 35px;
+}
+
 .bottom img {
-    max-width: 20%;
-    max-height:auto;
+    max-width: 200px;
+    max-height: auto;
     float: right;
-    padding-top: 20px;
-    padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 .bottom ul{
     list-style-type: none;
 }
+
 .bottom li {
     border-bottom:2px solid gray;
 
 }
+
 .bottom li:last-child {
     border-bottom: none;
 }
+
 .bottom h3 {
     border-bottom:2px solid gray;
 }
+
 .bottom h2 {
-       /* width: 20%;
-        height: auto;*/
-        float: left;
-        max-width: 16%;
-        height: auto; 
-        font: 700 18px/24px"Georgia", "Times New Roman";
+   float: left;
+   max-width: 24%;
+   height: 50px; 
+   font: 700 18px/24px "Roboto", "Times New Roman";
 }
 
 .bottom h6 {
-     display: inline-block;
-     color: rgb(161, 156, 156);
-    font: 300 12px/12px;
+    color: rgb(114, 105, 105);
+    font: 500 12px/18px "Roboto", "Georgia";
+    margin-left: 200px;
+    width:30%;
+
 
 }
+
 a:link {
     text-decoration: none;
 }
+
 .bottom p {
-    max-width: 36%;
+    max-width: 30%;
     max-height: auto;
-    margin-left: 400px;
-    padding: 15px 0;
-    color: rgb(161, 156, 156);
+    margin-left: 200px;
+    color: rgb(184, 184, 184);
     font: 300 16px/24px;
-
-
-
 }
+
 .bottom {
-    float: right;
-    max-width: 80%;
-    max-height: auto;
+    float: left;
+    max-height: 360px;
     vertical-align: top;
+    padding-left: 200px;
+    max-width: 70%;
 }
